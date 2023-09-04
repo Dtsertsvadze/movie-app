@@ -1,0 +1,51 @@
+.container {
+  margin: 5rem auto;
+  max-width: 1400px;
+}
+
+.container h1 {
+  margin-left: 12%;
+}
+.slider {
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  display: flex;
+  flex: 0 0 90%;
+  overflow-x: hidden;
+  transition: 0.5s ease-in-out;
+}
+
+.handle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-handle {
+  left: 0;
+  position: absolute;
+  height: 250px;
+  width: 50px;
+  z-index: 5;
+}
+
+.right-handle {
+  right: 0;
+  position: absolute;
+  height: 250px;
+  width: 50px;
+  z-index: 5;
+}
+
+.left-handle:hover {
+  background: grey;
+}
+
+.right-handle:hover {
+  background: grey;
+}

@@ -1,0 +1,131 @@
+
+.container {
+  position: relative;
+  height: 60vh;
+  background: black;
+}
+
+.slider {
+  display: flex;
+}
+
+.right {
+  z-index: 10;
+  height: 100px;
+  width: 40px;
+  border-radius: 10px;
+  font-size: 3rem;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.right:hover {
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.117);
+}
+.left:hover {
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.117);
+}
+
+.left {
+  z-index: 10;
+  height: 100px;
+  width: 40px;
+  border-radius: 10px;
+  font-size: 3rem;
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.movie {
+  background: black;
+  margin: 0 auto;
+  display: flex;
+  height: 60vh;
+
+  position: relative;
+  flex: 0 0 100%;
+}
+
+.content {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50%;
+  min-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.title {
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.description {
+  color: white;
+}
+
+.button-wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.play {
+  padding: 10px;
+  width: 100px;
+  border-radius: 10px;
+  border: 1px solid red;
+  font-weight: bold;
+  letter-spacing: 1px;
+  background: red;
+  color: white;
+}
+
+.play:hover {
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid red;
+  color: red;
+}
+
+.details {
+  width: 100px;
+  padding: 10px;
+  border: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+  background: transparent;
+  color: white;
+  border-radius: 10px;
+  border: 1px solid red;
+}
+
+.details:hover {
+  cursor: pointer;
+  background: red;
+  border: 1px solid red;
+  color: white;
+}
+
+.poster {
+  object-fit: cover;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}

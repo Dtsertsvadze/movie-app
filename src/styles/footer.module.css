@@ -1,0 +1,36 @@
+.container {
+    background: rgb(23, 23, 23);
+}
+
+.wrapper {
+  padding: 5rem 0;
+  margin: 0 auto;
+  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 10px;
+  color: grey;
+  
+}
+
+.box div {
+    transition: 0.3s all ease-in-out;
+}
+
+.box div:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.select {
+  font-size: 1.2rem;
+  padding: 3px;
+  border-radius: 5px;
+}
