@@ -80,7 +80,7 @@ const Movies = () => {
     <MovieCard
       key={movie.id}
       poster={movie.poster_path}
-      imdb={movie.id}
+      imdb={movie.vote_average}
       onMouseEnter={() => {
         setHoveredMovie(movie.id);
       }}
